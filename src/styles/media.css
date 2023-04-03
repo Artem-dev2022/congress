@@ -1,0 +1,194 @@
+@media (max-width: 1199px) {
+    .logo {
+        width: 39px;
+        height: 48px;
+    }
+    .title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .title-h2 {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .title-h3 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .section__container {
+        width: 328px;
+        padding: 0;
+    }
+    .header {
+        height: 60px;
+    }
+    .mobile-menu-background {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.289);
+        z-index: 10;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .header__nav {
+        padding: 40px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        opacity: 0;
+        visibility: hidden;
+        background-color: white;
+        height: 100vh;
+        width: 50vw;
+        z-index: 15;
+    }
+    .header__nav--active {
+        opacity: 1;
+        visibility: visible;
+    }
+    .header__list {
+        flex-direction: column;
+    }
+
+
+
+    .header__btn {
+        display: block;
+    }
+    .congress {
+        margin-bottom: 18px;
+    }
+    .congress__title {
+        margin-bottom: 16px;
+    }
+    .congress__img {
+        margin-bottom: 7px;
+        width: 328px;
+        height: 186px;
+    }
+    .congress__figure {
+        margin-bottom: 40px;
+    }
+    .congress__caption {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .congress__note {
+        margin-bottom: 16px;
+    }
+    .congress__note__text {
+        width: 280px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .text {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .congress__text {
+        margin-bottom: 24px;
+    }
+    .congress__form {
+        padding: 20px;
+    }
+    .congress__form__title {
+        margin-bottom: 16px;
+    }
+    .form__row {
+        margin-bottom: 16px;
+        gap: 15px;
+    }
+    .form__btn {
+        padding: 0px;
+        width: 100%;
+        height: 40px;
+    }
+    .penza__title {
+        margin-bottom: 16px;
+    }
+    .penza__text {
+        margin-bottom: 16px;
+    }
+    .penza__accreditation {
+        margin-bottom: 24px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .penza__form {
+        margin-bottom: 40px;
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .penza__form__img {
+        margin: 0 auto;
+        width: 241px;
+        height: 181px;
+    }
+    .penza__form__title {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .page-bottom-section {
+        margin-bottom: 60px;
+    }
+    .footer {
+        padding: 40px 0 50px;
+    }
+    .footer__top {
+        padding-bottom: 50px;
+    }
+    .footer__container {
+        position: relative;
+    }
+    .footer__logo {
+        margin-bottom: 25px;
+    }
+    .footer__contacts {
+        margin-bottom: 30px;
+    }
+    .footer__contacts__item {
+        width: 263px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .footer__links {
+        display: flex;
+        gap: 24px;
+    }
+    .footer__link {
+        font-size: 14px;
+        line-height: 18px;
+     }
+    .footer__icons {
+        position: absolute;
+        top: 210px;
+        left: 0px;
+    }
+    .footer__bottom {
+        padding: 40px 0 0 0;
+    }
+    .footer__right,
+    .footer__bottom__map {
+        display: none;
+    }
+    .footer__bottom__text {
+        width: 290px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .footer__bottom__left {
+        position: absolute;
+        bottom: -45px;
+    }
+    .footer__left,
+    .footer__right,
+    .footer__bottom__right,
+    .footer__bottom__left {
+        width: 100%;
+    }
+}
